@@ -1,4 +1,4 @@
-import { Stethoscope, Heartbeat, FirstAid, Syringe } from "lucide-react";
+import { Stethoscope, Activity, Heart, Syringe } from "lucide-react";
 
 export const FloatingIcons = () => {
   return (
@@ -7,10 +7,10 @@ export const FloatingIcons = () => {
         <Stethoscope size={48} />
       </div>
       <div className="absolute top-40 right-32 text-primary/10 float float-delay-1">
-        <Heartbeat size={48} />
+        <Activity size={48} />
       </div>
       <div className="absolute bottom-32 left-32 text-primary/10 float float-delay-2">
-        <FirstAid size={48} />
+        <Heart size={48} />
       </div>
       <div className="absolute bottom-40 right-20 text-primary/10 float">
         <Syringe size={48} />
